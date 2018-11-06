@@ -1,0 +1,76 @@
+=Kiama=
+
+#New server for B2BUA-remote;
+#Number unable to calls log for Macquarie;
+#Enable DNS for DR test;
+#Diana freeze incident analysis;
+
+
+
+Wait customer confirm, Call quality library analysis needs update announcement; 
+
+DONE Teamviewer session for inaction laptop;
+DONE Softphone QA timeline and approach of patch;
+
+
+
+==Vanilla Inactive==
+-Turned off the Firewall that was supposed been disabled;
+-Disabled Wireless NIC that generating error logs;
+-Disabled Bluetooth driver wasn't using;
+-Turned off the UAC that was a potentially cause;
+-Mute OS sound to prevent voice quality complain;
+-Validated direct TeamViewer for instance assistance;
+
+
+
+
+==
+
+System information from 1323434036
+
+Basic information
+	Computer name:	DESKTOP-D6K8CB1
+	User name:	DESKTOP-D6K8CB1\IPFX Test1
+	Domain:	WORKGROUP
+	Boot time:	06.11.2018 12:13:47 
+
+Processor & Memory
+	Processor:	Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+	Physical memory:	16 GiB
+
+Operating system
+	Name:	Microsoft Windows 10 Pro
+	Version:	10.0.17134
+	Service pack:	
+
+Devices
+	C:	236.73 GiB NTFS - 196.23 GiB free
+
+Network card
+	Name:	Intel(R) Ethernet Connection (4) I219-LM
+	IP-Address:	10.0.10.148
+	Subnet mask:	255.255.255.0
+	Standard gateway:	10.0.10.1
+	Bandwidth:	1000.00 Mbit/s
+
+
+
+
+
+
+
+
+
+==DR test objectives==
+IPFX services not auto start;
+Separate B2BUA-Remote from Fail-over server;
+Enable fail-over service;
+Implement DNS resolution for Fail-over;
+Devices re-provisioning;
+
+
+==Outstanding==
+Softphone: Network limitation
+Mobility: Firewall security limitation
+
